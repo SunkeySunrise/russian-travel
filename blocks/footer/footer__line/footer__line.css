@@ -1,0 +1,10 @@
+.footer__line {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__line {
+    display: table;
+  }
+}

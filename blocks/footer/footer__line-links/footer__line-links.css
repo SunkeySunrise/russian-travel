@@ -1,0 +1,12 @@
+.footer__line-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__line-links {
+    display: table;
+  }
+}

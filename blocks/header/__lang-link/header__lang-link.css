@@ -1,0 +1,26 @@
+.header__lang-link {
+  display: flex;
+  width: 29px;
+  height: 28px;
+  padding: 18px 0 6px 0.8em;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.header__lang-link:hover {
+  opacity: .3;
+  transition: opacity .2s linear;
+}
